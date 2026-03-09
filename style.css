@@ -1,0 +1,20 @@
+.tab-btn {
+    background: #f3f4f6;
+}
+
+.tab-btn.active {
+    background: #4F46E5;
+    color: white;
+}
+
+.tab-btn:hover {
+    background: #e5e7eb;
+}
+
+#issueGrid > div {
+    transition: 0.2s;
+}
+
+#issueGrid > div:hover {
+    transform: translateY(-3px);
+}
